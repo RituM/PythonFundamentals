@@ -1,5 +1,5 @@
-# This is a number guess game. The program will compare your guess with a secret number to determine if you've guessed the number successfully.
-# This program uses a while/else loop
+# This is a number guessing game. The program will compare your guess with a secret number to determine if you've guessed the number successfully.
+# This program uses a while/else loop.
 
 
 
