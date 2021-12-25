@@ -1,0 +1,32 @@
+# This is a number guess game. The program will compare your guess with a secret number to determine if you've guessed the number successfully.
+# This program uses a while/else loop
+
+
+
+# Designate a secret number
+secret_number = 9 
+
+# Designate the max number of guesses
+max_guess = 3
+
+# Designate the number of guesses and initialize to 0
+guess_count = 0
+
+# Loop through guesses while they are less than the max number
+while guess_count < max_guess: # python loop will execute for guess = 0,1,2 so 3x, set guess < 3
+    
+    guess = int(input("Guess: ")) # take in user guess as an int
+    
+    guess += 1 # increment guess_count
+    
+    if guess == secret_number: # compare user guess to secret number
+        # Tell user of successful guess
+        print("You won!")
+        
+        # terminate program
+        break
+        
+# Else condition which tells user that they're out of guesses
+    print("Sorry you're out of guesses!")
+        
+       
